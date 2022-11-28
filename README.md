@@ -1,2 +1,2 @@
-# arvenix
-Arvenix the highly dynamic PHP Framework
+# Arvenix
+The highly dynamic PHP framework.
