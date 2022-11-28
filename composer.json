@@ -1,0 +1,14 @@
+{
+    "name": "arvenix/arvenix",
+    "description": "The highly dynamic PHP framework.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ridintek Industri",
+            "email": "ridintekindustri@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
