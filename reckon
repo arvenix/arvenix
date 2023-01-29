@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+if (PHP_SAPI !== 'cli') {
+  die('This program must be run under CLI (Command Line Interface).');
+}
+
+define('BASEDIR', realpath(__DIR__) . DIRECTORY_SEPARATOR);
+define('APPDIR', realpath(BASEDIR . 'App') . DIRECTORY_SEPARATOR);
+define('COREDIR', BASEDIR . 'Core' . DIRECTORY_SEPARATOR);
+
+require(COREDIR . 'Arvenix.php');
+
+Arvenix\Bootstrapper::runConsole();
